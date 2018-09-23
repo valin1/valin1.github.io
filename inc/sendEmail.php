@@ -10,6 +10,7 @@ if($_POST) {
     $email = trim(stripslashes($_POST['contactEmail']));
     $subject = trim(stripslashes($_POST['contactSubject']));
     $contact_message = trim(stripslashes($_POST['contactMessage']));
+    $error = array();
 
     // Check Name
     if (strlen($name) < 2) {
@@ -28,6 +29,7 @@ if($_POST) {
 
 
     // Set Message
+    $message ='';
     $message .= "Email from: " . $name . "<br />";
     $message .= "Email address: " . $email . "<br />";
     $message .= "Message: <br />";
