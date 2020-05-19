@@ -1694,15 +1694,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .left {
     padding-top: 10rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 20rem;
+    padding-right: 5rem;
     width: 75%;
 }
 
 .right {
-    padding-top: 20rem;
+    padding-top: 15rem;
+    padding-left: 10rem;
     width: 25%;
-    padding-right: 5rem;
+
 }
 
 .row:after {
@@ -1792,7 +1793,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## home social
  * ------------------------------------------------------------------- */
 .home-social {
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "roboto", sans-serif;
     list-style: none;
     margin: 0;
     position: absolute;
