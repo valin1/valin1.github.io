@@ -1688,14 +1688,34 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__main {
-    padding-top: 24rem;
     position: relative;
+    float: left;
+}
+
+.left {
+    padding-top: 10rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    width: 75%;
+}
+
+.right {
+    padding-top: 20rem;
+    width: 25%;
+    padding-right: 5rem;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .home-content__buttons {
     padding-top: 6rem;
     text-align: left;
 }
+
 
 .home-content__buttons .btn {
     width: 215px;
