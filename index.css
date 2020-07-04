@@ -278,7 +278,6 @@ header table {
     width:100%;
     padding:10vh 0px;
     text-align:center;
-    font-weight:bold;
 }
 #footer a {
     color:#375d70;
@@ -375,5 +374,100 @@ button:focus {
     }
     #navigation a {
         color:#000;
+    }
+}
+@media only screen and (max-width: 480px){
+    #photos {
+        columns:1;
+        column-gap:0%;
+    }
+    #photos img {
+        margin:2% 0px;
+    }
+    #photos img:hover {
+        transform: scale(1);
+        cursor: pointer;
+    }
+    #rightImage {
+        display:none;
+    }
+    #top_part {
+        border:0px;
+    }
+    #top_part tr td{
+        width:100%;
+        text-align:center;
+    }
+    #about {
+        width:92% !important;
+        height:60vh;
+        padding-top:20vh !important;
+        text-align:center;
+        padding:0px 4%;
+    }
+    #about table {
+        width:100%;
+        margin-top:6vh;
+    }
+    #about table tr td {
+        text-align:center;
+    }
+    #about h1{
+        font-size: 28px;
+    }
+    #about h4{
+        font-size: 12px;
+    }
+    .social {
+        font-size:15px;
+    }
+    .btn_one {
+    padding:6px 30px;
+    width:60%;
+    margin:4vh auto;
+    box-shadow:0px 10px 20px rgba(55, 93, 112, 0.8);
+    background:rgb(255, 44, 90);
+    color:#fff;
+    }
+    .btn_one:hover {
+        box-shadow:0px 10px 40px rgba(55, 93, 112, 0.8);
+        cursor:pointer;
+    }
+    #project h1 {
+        font-size:20px;
+        width:19%;
+    }
+    #bio h1 {
+        font-size:20px;
+        width:25%;
+    }
+    #research h1  {
+        font-size:20px;
+        width:20%;
+    }
+    #research h2  {
+        font-size: 18px;
+    }
+    #research p, strong  {
+        font-size: 15px;
+    }
+    header {
+        width:96vw;
+        background:#fff;
+        padding:4vh 2vw;
+        position:absolute;
+    }
+    #header table tr td {
+        width:100%;
+        display:block;
+        text-align:center;
+        padding:15px 0px;
+    }
+    #navigation {
+        text-align:center;
+    }
+    #navigation a {
+        color:#000;
+        padding:10px 10px;
     }
 }
