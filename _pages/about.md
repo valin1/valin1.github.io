@@ -2,19 +2,23 @@
 layout: about
 title: about
 permalink: /
-description:
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
+  address: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I currently work as a software engineer on the Play Ads Quality team at Google. Previously, I received a BA in Computer Science and Applied Mathematics from [UC Berkeley](https://www.berkeley.edu/) (go bears!). 
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-In the past, I worked as an undergraduate researcher in Berkeley's [RISE Lab](https://rise.cs.berkeley.edu/) with [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/) on video database systems and with [N. Benjamin Erichson](https://www.benerichson.com/) and [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/) on robust dynamical systems based on neural network architectures. I have also worked with K. Shankari, [David Culler](https://people.eecs.berkeley.edu/~culler/) and [Randy Katz](https://vcresearch.berkeley.edu/faculty/randy-h-katz) on a recommendation system promoting better sustainable transportation habits. 
+Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Sometimes, you can catch me editing clips to become a mediocre vlogger, learning dance choreographies, or scoping out some good songs (I don't know what genre I like anymore). 
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
